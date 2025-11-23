@@ -284,13 +284,21 @@ apiRouter.post("/v1/chat/completions", async (ctx) => {
 apiRouter.get("/v1/models", (ctx) => {
   const models = [
     {
-      id: "ClaudeSonnet4_5",
+      id: "claudeSonnet_4_5_Streaming",
       object: "model",
       created: 1234567890,
       owned_by: "enginelabs",
     },
     {
-      id: "GPT5",
+      id: "gemini3_Pro_Preview",
+      object: "model",
+      created: 1234567890,
+      owned_by: "enginelabs",
+    },
+    {
+      id: "{
+  "modelKey": "gpt_5_1"
+",
       object: "model",
       created: 1234567890,
       owned_by: "enginelabs",
