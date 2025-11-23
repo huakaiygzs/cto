@@ -296,7 +296,7 @@ apiRouter.get("/v1/models", (ctx) => {
       owned_by: "enginelabs",
     },
     {
-      id: "modelKey": "gpt_5_1",
+      id: "gpt_5_1",
       object: "model",
       created: 1234567890,
       owned_by: "enginelabs",
